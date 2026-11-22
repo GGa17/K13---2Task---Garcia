@@ -1,0 +1,21 @@
+#Version 2 Added string formatting
+first_name = input("Enter student first name: ").strip()
+last_name = input("Enter student last name: ").strip()
+section = input("Enter section: ").strip()
+event_name = input("Enter event name: ").strip()
+year = input("Enter event year: ")
+month = input("Enter event month: ")
+day = input("Enter event day: ")
+
+full_name = f"{first_name} {last_name}".title()
+name_code = full_name.upper()
+section = section.upper()
+event_name = event_name.title()
+
+print("Student Event Registration Summary")
+print("Name:", full_name)
+print("Name Code:", name_code)
+print("Section:", section)
+print("Event:", event_name)
+print("Event Date:", month, day, year)
+print("Registration record created successfully.")
