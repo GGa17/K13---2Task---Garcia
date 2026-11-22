@@ -1,4 +1,5 @@
 #Version 3	Added date formatting
+import datetime
 first_name = input("Enter student first name: ").strip()
 last_name = input("Enter student last name: ").strip()
 section = input("Enter section: ").strip()
